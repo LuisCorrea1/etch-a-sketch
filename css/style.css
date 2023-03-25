@@ -1,14 +1,13 @@
-html,
 body {
     height: 100%;
     width: 100%;
 }
 
-.gridContainer{
+.gridContainer {
     display: flex;
 }
 
-h1{
+h1 {
     text-align: center;
     font-style: italic;
     font-weight: 800;
@@ -20,32 +19,34 @@ h1{
     display: inline-grid;
     grid-template-columns: repeat(16, 2fr);
     grid-template-rows: repeat(16, 2fr);
-    border: 3px solid black;
+    border: 1px solid black;
+    box-shadow: 5px 6px 5px 0px rgba(43, 43, 43, 0.75);
+    -webkit-box-shadow: 5px 6px 5px 0px rgba(43, 43, 43, 0.75);
+    -moz-box-shadow: 5px 6px 5px 0px rgba(43, 43, 43, 0.75);
     border-radius: 3px;
     height: 575px;
-    width: 575px;
-    
+    width: 1050px;
+
 }
 
 .gridSquare {
-    border: 1px solid black;
     background-color: white;
 }
 
-.changeColor{
-    background-color: rgb(72, 72, 189);
-    border: 1px solid black;
+.changeColor {
+    background-color: rgb(42, 170, 221);
 }
-.gridSize{
+
+.gridSize {
     text-align: center;
     margin: 20px;
     align-content: center;
 }
 
-.gridSize label{
+.gridSize label {
     font-size: 24px;
 }
 
-.gridSize input{
+.gridSize input {
     width: 150px;
 }

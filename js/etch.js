@@ -29,6 +29,13 @@ function updateGrid() {
     }
 }
 
+function resetGrid(){
+    grid.innerHTML="";
+    grid.style.setProperty("grid-template-columns",`repeat(16, 2fr)`);
+    grid.style.setProperty("grid-template-rows",`repeat(16, 2fr)`);
+    createGrid();
+}
+
 
 
 createGrid();
